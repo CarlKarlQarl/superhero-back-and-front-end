@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <script defer src="show.js"></script>
+    </head>
+    <body>
+        <form method="POST" action="http://localhost:3000/supervillains">
+            <label>Enter Supervillain Name:</label>
+            <input type="text" name="name" placeholder="e.g. The Riddler, Bizarro" id="superheroinput"/>
+            <input type="hidden" name="superhero" value="" id="hiddenHero"/>
+            <input type="submit" value="Add Villain" />
+        </form>
+    </body>
+</html>
